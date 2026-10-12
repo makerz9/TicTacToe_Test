@@ -261,7 +261,7 @@ while (round < 10)
     else if ((position[0] == position[4] && position[4] == position[8]) && (position[0] != "."))
     {
         //값이 같아야하니 이거도 하나만 검사하면 되겠지?
-        if (position[0] == "X")
+        if (position[0] == "X") 
         {
             Console.WriteLine($"플레이어 X 승리!");
             break;
