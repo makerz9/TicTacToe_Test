@@ -36,7 +36,7 @@ class RangeOptions
             if(value >=-20 && 20 >= value)
             {
                 this.lows = value;
-                //Console.Write($"하한 먼저: {}~{}");
+                Console.WriteLine($"하한 먼저: {lows}~{ups}");
             }
             
         }
@@ -54,7 +54,7 @@ class RangeOptions
             if ((value >= -20 && 20 >= value) && (value >= lows))
             {
                 this.ups = value;
-                //Console.Write($"상한 먼저: {}~{}");
+                Console.WriteLine($"상한 먼저: {ups}~{lows}");
             }
 
         }
